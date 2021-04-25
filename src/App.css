@@ -8,6 +8,11 @@
   max-width: 150px;
 }
 
+.searchBox {
+  display: block;
+  margin: 0 auto;
+}
+
 .App-footer {
   text-align: center;
   margin: 30px 0;

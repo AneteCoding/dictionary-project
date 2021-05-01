@@ -1,7 +1,10 @@
 body {
   background-color: #e7eaf6;
 }
-
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+}
 a {
   color: #38598b;
 }

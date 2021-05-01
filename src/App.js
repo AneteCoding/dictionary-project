@@ -10,12 +10,14 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary defaultKeyword="flower" />
+          <Dictionary defaultKeyword="dictionary" />
         </main>
         <footer className="App-footer">
           <small>
-            Coded by Anete
-        </small></footer>
+            <a href="https://github.com/AneteCoding/dictionary-project" target="_blank" rel="noreferrer">Open source code </a>
+             by <a href="https://www.linkedin.com/in/anete-bogdanova-a5ba366a/" target="_blank" rel="noreferrer">Anete </a>
+             and <a href="https://www.netlify.com/" target="_blank" rel="noreferrer"> hosted on Netlify</a>
+          </small></footer>
       </div>
     </div>
   );

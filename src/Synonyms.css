@@ -1,5 +1,5 @@
 .Synonyms {
-  margin: 20px 0 0;
+  margin: 20px 0;
   padding: 0;
 }
 
@@ -8,4 +8,8 @@
   display: inline-block;
   padding-right: 10px;
   line-height: 1;
+}
+
+.Synonyms span {
+  font-size: 14px;
 }

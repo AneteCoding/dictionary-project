@@ -1,5 +1,6 @@
 import React from "react";
 import Synonyms from "./Synonyms";
+import Example from "./Example";
 import "./Meaning.css"
 
 export default function Meaning(props) {
@@ -10,9 +11,10 @@ export default function Meaning(props) {
                 return (
                     <div key={index}>
                         <div className="definition">
+                            <span>∙ </span>
                             {definition.definition}
                         </div>
-                        <div className="example">{definition.example}</div>
+                        <Example example={definition.example} />
                         <Synonyms synonyms={definition.synonyms} />
                     </div>
                 );
